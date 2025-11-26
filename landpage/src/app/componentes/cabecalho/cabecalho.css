@@ -1,0 +1,12 @@
+.containerRoot {
+    display: flex;
+    background: rgb(49, 48, 48);
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 8px;
+}
+
+.titulo-principal {
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+<section>
+    <h2>Lista de Usuários</h2>
+    @for(user of usuarios; track user.id) {
+        <p>NOME: {{ user.nome }}</p>
+        <p>SETOR: {{ user.setor }}</p>
+    }
+    @empty {
+        <span>Nenhum Usuário.</span>
+    }
+</section>>
